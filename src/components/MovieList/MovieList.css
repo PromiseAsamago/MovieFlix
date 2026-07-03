@@ -1,0 +1,11 @@
+.movieListHeader{
+    margin-bottom: 15px;
+}
+.movieListHeading{
+    color: rgb(240, 105, 105);
+}
+.movieCard{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}

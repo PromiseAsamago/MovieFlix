@@ -2,7 +2,7 @@ import React from 'react'
 
 import './App.css'
 import Search from './components/Search'
-import MovieList from './components/MovieCard.css/MovieList'
+import MovieList from './components/MovieList/MovieList'
 
  const App = () => {
   return (
