@@ -54,6 +54,8 @@ const MovieList = () => {
 
   return (
     <section className="movieList">
+
+        {/* SEARCH FORM */}
         <div className=''>
           <form onSubmit={handleSearch} className='search-form' id='input-wrapper'>
               <input type="text" placeholder='Search movies...' className='search-input' value={searchQuery} onChange={(e)=> setSearchQuery(e.target.value)} />
@@ -61,11 +63,12 @@ const MovieList = () => {
           </form>
        </div>
 
+
         <header className="movieListHeader">
             <h3 className="movieListHeading">POPULAR MOVIES</h3>
         </header>
         
-       
+       {/* Error and Loading States Logic */}
         {error? 
           (<div className='error-message'>{error}</div>
 

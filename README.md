@@ -19,3 +19,6 @@ If you are developing a production application, we recommend using TypeScript wi
 # MovieFlix
 Just a movie site
 >>>>>>> 4824d2270aaa7bfaeccdeb40b82e16490045d895
+
+## API 
+The API key can be found in api.js file, inside the service folder.

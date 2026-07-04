@@ -7,6 +7,7 @@ import MovieList from './components/MovieList/MovieList'
  const App = () => {
   
   return (
+    // HEADER
     <div className='app'>
       <div className="mainHeader">
          <div className='titleBox'>
