@@ -1,10 +1,11 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
+
 
 import './App.css'
-import Search from './components/Search'
 import MovieList from './components/MovieList/MovieList'
 
  const App = () => {
+  
   return (
     <div className='app'>
       <div className="mainHeader">
@@ -19,8 +20,7 @@ import MovieList from './components/MovieList/MovieList'
           <div className='headerDesc'>Discover amazing films</div>
       </div>
 
-      {/* Search Bar Component */}
-      <Search/>
+     
 
       {/* Main Content */}
       <main>
